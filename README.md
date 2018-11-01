@@ -10,4 +10,4 @@ Example IPTables rule: iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 445 
 
 smbrelayxMITM.py requires the Impacket tools to work: https://github.com/SecureAuthCorp/impacket.git
 
-Place smbrelayxMITM.py in the impacket/examples folder and run it from there.
+*** This file has dependencies in the original Impacket package. Place smbrelayxMITM.py in the impacket/examples folder of the original package and run it from there. ***
